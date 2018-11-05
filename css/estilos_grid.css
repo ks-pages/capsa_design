@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    background: #f4f5f6;
+    color: #fff;
+    min-height: 100%;
+}
+.container{
+    height: 100%;
+    min-height: 100%;
+}
+
+header{
+    background: #9aca40;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+.contenedor-main{
+    margin-bottom:20px;
+}
+main{
+    background: #fff;
+    color: #424242;
+    padding: 20px 0;
+}
+aside{
+    background: rgb(128, 158, 182);
+    color: #033f8d;
+    padding: 60px 0;
+}
+
+.widgets{
+    background-color: #f2f2f2;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.widgets > div {
+    background: #22c2f3;
+    padding: 20px;
+}
+footer{
+    background: #010101;
+    padding:20px 0;
+
+}

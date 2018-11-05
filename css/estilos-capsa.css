@@ -1,0 +1,362 @@
+html{
+    min-height: 100%;
+    position: relative;
+    font-size: 1rem;
+}
+body{
+    background: #e9ebee;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    color:#1176b6;
+}
+a:hover{
+text-decoration: underline}
+
+header{
+background: #3d4143;
+padding: 10px 0;
+}
+
+header .logo img{
+    height: 25px;
+}
+main .container{
+    width: 90% !important;
+}
+nav button.btn-link{
+    color: #e9ebee !important;
+    text-decoration: none;
+}
+nav .btn{
+    padding: 0px !important;
+    margin: 0 0 0 8px !important;
+}
+nav button.btn-link:hover{
+    color: #fff !important;
+    text-decoration: none;
+}
+.input-search{
+    width:100%;
+    background: white;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px 0 0 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buscador form button{
+    width: 100%;
+    background: white;
+    border: none;
+    font-size: 12px;
+    padding: 0 10px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    color: #6d6d6d;
+}
+.buscador form button:hover{
+    background: #099efc;
+    color: #fff;
+}
+
+.btn-principal{
+    background: rgb(218, 92, 20); 
+    color: #fff;
+}
+
+
+/* MENU */
+
+header .menu a{
+color: rgba(255,255,255,.8);
+text-decoration: none;
+}
+header .menu a:hover{
+    color: #fff;
+    }
+
+header .menu .imagen-perfil{
+    display: inline-block;
+}
+
+header .menu .imagen-perfil img{
+    border-radius: 100%;
+}
+
+/*  MAIN*/
+main{
+    padding-top:20px;
+}
+.table-catalogo{
+    margin: 15px;
+}
+
+.table td.no-border{
+    border: 0 !important;    
+}
+
+td.por-cobrar{
+    color: rgb(218, 92, 20); 
+
+}
+.table td.no-border .input-cambio{
+    background: #ffdfa2;
+}
+/* ----------- TABS CATÁLOGO -------------------- */
+
+.nav-tabs li a{
+    color: #2d3032 !important;
+
+}
+
+#myTab .nav-link.active{
+    background: #3d4143;
+    color: #fff !important;
+}
+
+
+/*  BARRA LATERAL DERECHA*/
+main{
+    padding-top:4px;
+}
+main .barra-lateral-der{
+    padding-bottom: 5px;
+}
+main .barra-lateral-der nav{
+   padding-bottom: 2px;
+    float: right;
+}
+
+main .barra-lateral-der nav a{
+    background: #3d4143;
+    display: block;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding:12px;
+    margin-bottom: 4px;
+}
+main .barra-lateral-der nav a:hover{
+background: #5d6266;
+text-decoration: none;
+}
+main .barra-lateral-der nav a i{
+    margin-right: 10px;
+    }
+main .barra-lateral-der nav a i.icon-cubes{
+    color: #299bff;
+}
+main .barra-lateral-der nav a i.icon-credit-card{
+    color: #73f33c;
+    font-weight: bolder;
+}
+main .barra-lateral-der nav a i.icon-money{
+    color: #fca746;
+}
+main .barra-lateral-der nav a i.icon-exchange{
+    color: #14ffd8;
+}
+main .barra-lateral-der nav a i.icon-users{
+    color: #ffd413;
+}
+main .barra-lateral-der nav a i.icon-inbox{
+    color: #e63a65;
+}
+
+    .buscador-capsa{
+        margin-bottom: 15px;
+    }
+
+/* TABLE */
+.content-table{
+    min-height: 320px;
+}
+table thead.thead-capsa{
+    background: #babcbf;
+    color:#fff;
+}
+
+.btn-cobrar{
+    background: #519731;
+    color:#ffffff;
+    width: 100%;
+    white-space: normal;
+}
+.btn-cancelar-cobro{
+    background: #df4a42;
+    color:#ffffff;
+    width: 100%;
+    white-space: normal;
+}
+.content-total-cobro{
+    background: #e3e5e9;
+    border: 1px solid #9fa6ac;
+    height: 40px;
+    margin: 15px;
+}
+span.total{
+    font-style: bold   ;
+    font-size: 18px;
+}
+.opciones-gral-capsa{
+    margin-bottom: 15px;
+}
+.opciones-gral-capsa a{
+    float: right;
+}
+
+.bg-nav-empresa{
+    background-color:transparent !important;
+    float: right;
+    margin-right: 0;
+    margin-left: auto;
+    margin-bottom: 4px;
+    padding: 4px 0 4px 0;
+}
+.bg-nav-empresa h5{
+    float: right;
+}
+.btn-horizontal{
+    margin-bottom:15px;
+}
+.btn-horizontal .btn{
+height: 48px !important;
+border-radius: 0px;
+width: 100% !important;
+}
+.botones-compra .btn{
+    border-radius: 0;
+}
+
+.barra-lateral-der-1 button.btn-aside-up{
+    width: auto;
+    white-space: normal;
+}
+.barra-lateral-der-1 .btn-left{
+    background: #0cabb1;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.barra-lateral-der-1 .btn-center{
+    background: #5c49b1;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.barra-lateral-der-1 .btn-right{
+    background: #e63a65;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+    height: 40px;
+    position: absolute;
+}
+
+.footer a{
+    color: #FF4B40;
+}
+/* MEDIAQUERIES*/
+
+@media screen and (max-width:575px) {
+    header .menu{
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral-der nav{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .barra-lateral-der{
+        margin-top: 24px;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .content-table{
+        font-size: 0.81rem;
+    }
+}
+@media screen and (max-width:992px) {
+    .botones-compra .btn{
+        font-size: 0.9rem !important;
+    }
+}
+
+  
+/* ------NAV MENU COLAPDASO--------- */
+.overlay,.sideMenu{
+    position:fixed;
+    bottom:0
+}
+.overlay{
+    top:0;
+    margin:auto;
+    background-color:rgba(0,0,0,.5);
+    z-index:998;
+    transition:all ease 0.2s
+}
+.overlay.open{
+    left:0;
+    right:0
+}
+.sidebarNavigation{
+    margin-bottom:0;
+    justify-content:flex-end;
+}
+.sidebarNavigation .leftNavbarToggler{
+    margin-right:10px;
+    order:-1
+}
+.sideMenu{
+    right:-100%;
+    top:0px;
+    transition:all ease 0.5s;
+    overflow:hidden;
+    width:auto;
+    z-index:999;
+    max-width:80%;
+    margin-bottom:0;
+    padding:1rem;
+    padding-top: 42px;
+}
+.sideMenu.open{
+    right:0;
+    display:block;
+    overflow-y:auto;
+    background: #3d4143;
+}
+.sideMenu ul
+{
+    margin:0;
+    padding:0 15px;
+}
+
+.content-logo{
+    margin-bottom: 8px;
+}
+
+.sideMenu p{
+    font-size: .8rem;
+    color: #c4c1c1 !important;
+}
+/*----------------------------- */
+
+ a.nav-link{
+    color:#ffffff !important;
+}
