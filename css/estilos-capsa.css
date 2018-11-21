@@ -16,6 +16,7 @@ text-decoration: underline}
 header{
 background: #3d4143;
 padding: 10px 0;
+margin-bottom: 16px;
 }
 
 header .logo img{
@@ -23,6 +24,9 @@ header .logo img{
 }
 main .container{
     width: 90% !important;
+}
+.container-fluid{
+    max-width: 90%;
 }
 nav button.btn-link{
     color: #e9ebee !important;
@@ -119,6 +123,9 @@ td.por-cobrar{
     color: #fff !important;
 }
 
+.row-content-principal{
+    min-height: 480px;
+}
 
 /*  BARRA LATERAL DERECHA*/
 main{
@@ -126,6 +133,7 @@ main{
 }
 main .barra-lateral-der{
     padding-bottom: 5px;
+    padding-top: 12px;
 }
 main .barra-lateral-der nav{
    padding-bottom: 2px;
@@ -172,8 +180,13 @@ main .barra-lateral-der nav a i.icon-inbox{
     }
 
 /* TABLE */
+.content-principal{
+    background: #fff;
+    min-height: 480px;
+    padding: 16px;
+}
 .content-table{
-    min-height: 320px;
+    min-height: 480px;
 }
 table thead.thead-capsa{
     background: #babcbf;
@@ -231,7 +244,9 @@ width: 100% !important;
 .botones-compra .btn{
     border-radius: 0;
 }
-
+.barra-lateral-der{
+    background: #fff;
+}
 .barra-lateral-der-1 button.btn-aside-up{
     width: auto;
     white-space: normal;
@@ -359,4 +374,36 @@ width: 100% !important;
 
  a.nav-link{
     color:#ffffff !important;
+}
+
+/*---------------PANEL INICIO------------------*/
+.nav-pills{
+    margin-bottom: 24px;
+}
+a.nav-item{
+    background: #e9e8e8;
+    height: 120px;
+    border: 1px solid #ced4da;
+    color: black !important;
+}
+
+a.nav-link-m{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+a.nav-link-firt{
+    margin-right: 8px;
+}
+a.nav-link-end{
+    margin-left: 8px;
+}
+.nav-pills a.nav-link.active{
+    background:grey;
+    color: white !important;
+}
+
+
+.btn-home-info {
+    background:red;
+    height: 48px;
 }
