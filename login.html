@@ -78,105 +78,45 @@
         <!-- CONTENIDO PRINCIPAL TABLA -->
         <div class="col-12 col-md-10">
             <div class="content-table content-principal">
-                
-                <div class="row">
-                    <div class="col">
-                            <p>Esto es resumen de tus movimientos del día en sucursal(es).</p>
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-6 content-welcome">
+                            <img src="img/logo_capsa-inicio.png" alt="CAPSA | Tu punto de venta">
+                            <p>Para poder utilizar el sistema es necesario que inicie sesión</p>
+                            <a href="#myModal" class="trigger-btn" data-toggle="modal">INICIAR SESIÓN</a>
                     </div>
-                    <div class="col-2">
-                            <form>
-                                    <div class="form-group">
-                                      <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>Sucursal</option>
-                                        <option>Allende</option>
-                                        <option>Galeana</option>
-                                        <option>PeriSur</option>
-                                        <option>Centro</option>
-                                      </select>
-                                    </div>
+                </div>    
+            </div>
+        </div>
+            <!-- Modal HTML -->
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog modal-login">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="avatar">
+                                <img src="img/avatar-capsa.png" alt="Avatar">
+                            </div>				
+                            <h4 class="modal-title">Iniciar Sesión</h4>	
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="/examples/actions/confirmation.php" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="username" placeholder="Usuario" required="required">		
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">	
+                                </div>        
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Ingresar</button>
+                                </div>
                             </form>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#">Si olvidaste tus datos contacta a Soporte Técnico</a>
+                        </div>
                     </div>
                 </div>
-                
-                <nav class="nav nav-pills nav-justified">
-                    <a class="nav-item nav-link nav-link-firt active" href="#">
-                     <i class="icon-dollar"></i> <br/>
-                        Venta del día <hr width="auto" noshade="noshade"/>
-                        <span class="venta">$8725.00</span>
-                    </a>
-                        
-                    <a class="nav-item nav-link nav-link-m" href="#">
-                            <i class="icon-money"></i> <br/>
-                            Utilidad<hr width="auto" noshade="noshade"/>
-                            <span class="venta">$8725.00</span>
-                        </a>
-                    <a class="nav-item nav-link nav-link-m" href="#">
-                            <i class="icon-basket"></i> <br/>
-                        Más vendido <hr width="auto" noshade="noshade"/>
-                        <span class="venta">Coca 600ml</span>
-                    </a>
-                    <a class="nav-item nav-link nav-link-m disabled" href="#">
-                            <i class="icon-cart-arrow-down"></i> <br/>
-                        Menos vendido <hr width="auto" noshade="noshade"/>
-                        <span class="venta">Marlboro</span>
-                    </a>
-                    <a class="nav-item nav-link nav-link-m" href="#">
-                            <i class="icon-credit-card"></i> <br/>
-                        Por cobrar <hr width="auto" noshade="noshade"/>
-                        <span class="venta">$3246.55</span>
-                    </a>
-                    <a class="nav-item nav-link nav-link-end disabled" href="#">
-                            <i class="icon-down-circled"></i> <br/>
-                        Stock bajo <hr width="auto" noshade="noshade"/>
-                        <span class="venta">Ciel 500ml</span>
-                    </a>
-                </nav>
-                      <h4>Venta del día por vendedor</h4>
-                <table class="table">
-                        <thead class="thead-light">
-                          <tr>
-                            <th scope="col">Vendedor</th>
-                            <th scope="col">Sucursal</th>
-                            <th scope="col">Vespertino</th>
-                            <th scope="col">Ventas</th>
-                            <th scope="col">Productos</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">Lucas Zelarayán</th>
-                            <td>Allende</td>
-                            <td>Vespertino</td>
-                            <td>$687.56</td>
-                            <td>9</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Manuel Negrete</th>
-                            <td>Galeana</td>
-                            <td>Matutino</td>
-                            <td>$987.35</td>
-                            <td>11</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Pedro Silva</th>
-                            <td>PeriSur</td>
-                            <td>Matutino</td>
-                            <td>$786.55</td>
-                            <td>12</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">Guadalupe Salazar</th>
-                            <td>Centro</td>
-                            <td>Vespertino</td>
-                            <td>$1245.90</td>
-                            <td>16</td>
-                          </tr>
-                        </tbody>
-                      </table>
-
-            </div>
-
-        </div>
+            </div>  
             <!-- BARRA LATERAL DERECHA BOTONES SECUNDARIOS-->
         <div class="col-12 col-md-2 barra-lateral-der">
             <div class="row">
