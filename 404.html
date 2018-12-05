@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css  ">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos-capsa.css">
+    <link rel="stylesheet" href="css/b4_sidebar.css">
+    <title>CAPSA | Administra tu punto de venta</title>
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 logo">
+                <a href=""><img src="img/logo_capsa-h.png" alt=""></a>
+            </div>
+            <nav class="col-5 col-sm-4 col-lg-10 menu d-flex justify-content- end ml-auto order-1 order-sm-2 mb-1 mb-sm-0 navbar-dark sidebarNavigation" data-sidebarClass="navbar-dark bg-dark">
+                <button type="button" class="btn btn-link dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nombre de Usuario | puesto</button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" type="button"> <i class="icon-cog"> </i>Configuración</button>
+                    <button class="dropdown-item" type="button"><i class="icon-location"> </i>Sucursales</button>
+                    <button class="dropdown-item" type="button"><i class="icon-logout"> </i>Cerrar Sesión</button>
+                  </div>
+                  <div class="row no-gutters">
+                    <button class="btn btn-lg navbar-toggler rightNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                            <div class="content-logo d-flex justify-content-center">
+                                    <img src="img/logo_capsa-menu.png" alt="">
+                            </div>
+                            <p style="text-align: center; color:aliceblue">Todo lo que necesitas para tu negocio <br> lo encuentras aquí</p>
+                                <ul class="navbar-nav mr-auto" style="border-top: 1px solid aliceblue">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Catálogos
+                                            <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ventas</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Cajas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Inventarios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Movimientos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Reportes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Compras</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ayuda</a>
+                                    </li>
+                    
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="¿Qué buscas?" aria-label="Search">
+                                    <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+                                </form>
+                        </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="container-fluid">
+    <div class="row row-content-principal">
+        <!-- CONTENIDO PRINCIPAL TABLA -->
+        <div class="col-12 col-md-10">
+            <div class="content-table content-principal">
+                <div class="row d-flex justify-content-center">
+                    <div class="col col-6 content-welcome">
+                            <img src="img/404-nopage.png" alt="CAPSA | Tu punto de venta">
+                    </div>
+                </div>    
+            </div>
+        </div>
+            <!-- BARRA LATERAL DERECHA BOTONES SECUNDARIOS-->
+        <div class="col-12 col-md-2 barra-lateral-der">
+            <div class="row">
+                <nav class="col-12">
+                    <a href=""><i class="icon-cubes"></i>PRODUCTOS F1</a>
+                    <a href=""><i class="icon-money"></i>COMPRAS F2</a>
+                    <a href=""><i class="icon-tag"></i>ETIQUETAR F3</a>
+                    <a href=""><i class="icon-exchange"></i>PROMOCIONES F4</a>
+                    <a href=""><i class="icon-inbox"></i>INVENTARIOS F5</a>
+                    <a href=""><i class="icon-credit-card"></i>PAGOS F6</a>
+                    <a href=""><i class="icon-inbox"></i>REPORTES F12</a>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="row footer align-items-center">
+    <div class="col">
+        <h6> ®2018 | Sistema Desarrollado por <a href="wwww.kadasoftware.com">KadaSoftware</a></h6>
+    </div>
+</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/b4_sidebar.js"></script>
+    <script>
+            $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>
+
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+    </script>
+</body>
+</html>
