@@ -8,11 +8,21 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 a{
-    color:#1176b6;
+    color:#DA5C14;
 }
 a:hover{
 text-decoration: underline}
 
+td a i{
+    color: #3d4143;
+}
+td a i:hover{
+    color: #DA5C14;
+}
+
+.btn-link{
+    color: #DA5C14 !important;
+}
 header{
 background: #3d4143;
 padding: 10px 0;
