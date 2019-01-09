@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css  ">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos-capsa.css">
+    <link rel="stylesheet" href="css/b4_sidebar.css">
+    <title>CAPSA | Administra tu punto de venta</title>
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 logo">
+                <a href=""><img src="img/logo_capsa-h.png" alt=""></a>
+            </div>
+            <nav class="col-5 col-sm-4 col-lg-10 menu d-flex justify-content- end ml-auto order-1 order-sm-2 mb-1 mb-sm-0 navbar-dark sidebarNavigation" data-sidebarClass="navbar-dark bg-dark">
+                <button type="button" class="btn btn-link dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nombre de Usuario | puesto</button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <button class="dropdown-item" type="button"> <i class="icon-cog"> </i>Configuración</button>
+                    <button class="dropdown-item" type="button"><i class="icon-location"> </i>Sucursales</button>
+                    <button class="dropdown-item" type="button"><i class="icon-logout"> </i>Cerrar Sesión</button>
+                  </div>
+                  <div class="row no-gutters">
+                    <button class="btn btn-lg navbar-toggler rightNavbarToggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                            <div class="content-logo d-flex justify-content-center">
+                                    <img src="img/logo_capsa-menu.png" alt="">
+                            </div>
+                            <p style="text-align: center; color:aliceblue">Todo lo que necesitas para tu negocio <br> lo encuentras aquí</p>
+                                <ul class="navbar-nav mr-auto" style="border-top: 1px solid aliceblue">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Catálogos
+                                            <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ventas</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Cajas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Inventarios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Movimientos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Reportes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Compras</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ayuda</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="text" placeholder="¿Qué buscas?" aria-label="Search">
+                                    <button class="btn btn-success my-2 my-sm-0" type="submit">Buscar</button>
+                                </form>
+                        </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="container-fluid">
+    <div class="row row-content-principal">
+        <!-- CONTENIDO PRINCIPAL TABLA -->
+        <div class="col-12 col-md-10">
+            <div class="content-table content-principal">
+                <form>
+                    <div class="form-group row">
+                            <label for="" class="col-sm-3 col-md-2  col-form-label">Categoria del producto:</label>
+                            <select class="form-control col-sm-2" id="exampleFormControlSelect1">
+                                <option>Todos</option>
+                                <option>Perfumería</option>
+                                <option>Hogar</option>
+                                <option>Línea blanca</option>
+                                <option>Abarrotes</option>
+                            </select>
+                        <div class="col-3">
+                            <input class="form-control" type="search" placeholder="Buscar producto..." aria-label="Search">
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-success my-2 my-sm-0 d-flex ml-auto" data-toggle="modal" data-placement="top" data-target="#ModalCenter-HacerCobro">+ ETIQUETA</button>
+                        </div>
+                    </div>
+                </form>
+                <!-- Agregar Producto-->
+                <div class="modal fade" id="ModalCenter-HacerCobro" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Generar Etiqueta</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-12">
+                                </div>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn btn col-3">CANCELAR</button>
+                                    <button type="button" class="btn btn-principal col-3">GUARDAR</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Termina Hacer Cobro-->
+                <table class="table">
+                        <thead class="thead-light">
+                          <tr>
+                            <th scope="col">CATEGORÍA</th>
+                            <th scope="col">NOMBRE</th>
+                            <th scope="col">PRECIO</th>
+                            <th scope="col">
+                                    <form class="form-inline">
+                                            <div class="form-group">
+                                              <label for="disabledSelect">Cantidad &nbsp;</label>
+                                              <select class="form-control col-sm-4" id="exampleFormControlSelect1">
+                                            </div>
+                                          </form>
+                                <option>1</option>
+                                <option>5</option>
+                                <option>10</option>
+                                <option>20</option>
+                                <option>50</option>
+                            </select></th>
+                            <th scope="col" style="text-align:center">
+                              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"><label class="form-check-label" for="defaultCheck1">
+                                SELECCIONAR
+                              </label>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Perfumería</th>
+                            <td>Nombre</td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="$0.00"></td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="1"></td>
+                            <td style="text-align:center"><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Abarrotes</th>
+                            <td>Nombre</td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="$0.00"></td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="1"></td>
+                            <td style="text-align:center"><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Farmacia</th>
+                            <td>Nombre</td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="$0.00"></td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="1"></td>
+                            <td style="text-align:center"><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Vinos y Licores</th>
+                            <td>Nombre</td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="$0.00"></td>
+                            <td><input type="text" id="disabledTextInput" class="form-control col-4" placeholder="1"></td>
+                            <td style="text-align:center"><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"></td>
+                          </tr>
+                        </tbody>
+                </table>
+                <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn btn-principal btn-lg col-2">IMPRIMIR</button>
+
+                </div>
+
+            </div>
+
+        </div>
+            <!-- BARRA LATERAL DERECHA BOTONES SECUNDARIOS-->
+        <div class="col-12 col-md-2 barra-lateral-der">
+            <div class="row">
+                <nav class="col-12">
+                    <a class="nav-link active" href="#"><i class="icon-cubes"></i>PRODUCTOS F1</a>
+                    <a href=""><i class="icon-money"></i>COMPRAS F2</a>
+                    <a href=""><i class="icon-tag"></i>ETIQUETAR F3</a>
+                    <a href=""><i class="icon-exchange"></i>PROMOCIONES F4</a>
+                    <a href=""><i class="icon-inbox"></i>INVENTARIOS F5</a>
+                    <a href=""><i class="icon-credit-card"></i>PAGOS F6</a>
+                    <a href=""><i class="icon-inbox"></i>REPORTES F12</a>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="row footer align-items-center">
+    <div class="col">
+        <h6> ®2018 | Sistema Desarrollado por <a href="wwww.kadasoftware.com">KadaSoftware</a></h6>
+    </div>
+</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/b4_sidebar.js"></script>
+    <script>
+            $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>
+
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+    </script>
+</body>
+</html>
