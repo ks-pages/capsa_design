@@ -539,8 +539,8 @@ span.venta{
 
 /*-----------MOLDA DIALOGO XL------------------------*/
 
-.modal-dialog{
-    max-width: 1024px !important;
+.modal-dialog-xl{
+    max-width: 1024px;
 }
 
 .notif-min{
